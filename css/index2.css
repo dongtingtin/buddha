@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav {
+    width: 100%;
+    height: 110px;
+    background: #fbfbfb;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_c {
+    width: 960px;
+    height: 110px;
+    /*border: 1px solid #ccc;*/
+}
+
+.nav_t {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_t img {
+    height: 60px;
+}
+
+.nav_t input {
+    height: 30px;
+}
+
+.nav_b {
+    height: 40px;
+    /*border: 1px solid #ccc;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_b li {
+    width: 86px;
+    border-right: 1px solid #ccc;
+    height: 40px;
+    background-color: #927a6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_b li:hover {
+    background-color: #fff;
+}
+
+.nav_b li:hover a {
+    color: black;
+}
+
+.nav_b li a {
+    color: #fff;
+}
+
+.active {
+    background-color: #fff;
+}
+
+
+/*/轮播图*/
+
+.attr {
+    width: 99%;
+    height: 50px;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attr a {
+    color: #fff;
+}
+
+.attr:hover {
+    opacity: 0.7;
+}
+
+.container {
+    width: 100%;
+    height: 1040px;
+    display: flex;
+    justify-content: center;
+}
+
+.container_1 {
+    width: 960px;
+    height: 1040px;
+    display: flex;
+}
+
+.con_left {
+    width: 660px;
+    height: 1040px;
+}
+
+.item {
+    width: 620px;
+    height: 180px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.item_1 {
+    width: 190px;
+    height: 130px;
+}
+
+.item_1 img {
+    width: 180px;
+    height: 130px;
+}
+
+.item_2 {
+    width: 430px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #c3c3c3;
+}
+
+.item_2 p {
+    font-size: 14px;
+}
+
+.item_2 a {
+    color: black;
+}
+
+.item_menu {
+    width: 620px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item_menu button {
+    width: 30px;
+    height: 30px;
+    background-color: #c0c0c0;
+}
+
+.con_right {
+    width: 300px;
+    height: 1040px;
+}
+
+.hei {
+    height: 75px;
+}
+
+.con_xiangxi {
+    width: 300px;
+    height: 250px;
+    position: relative;
+}
+
+.con_xiangxi img {
+    width: 99%;
+    height: 98%;
+}
+
+.more {
+    width: 300px;
+    height: 300px;
+}
+
+.more_h {
+    width: 98%;
+    height: 60px;
+    background: #fbfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more_h a {
+    color: black;
+}
+
+.more_img {
+    width: 300px;
+    height: 180px;
+    position: relative;
+}
+
+.more_img img {
+    width: 300px;
+    height: 180px;
+}
+
+#List {
+    display: flex;
+}
+
+#List li {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#List a {
+    color: black;
+    font-size: 12px;
+}
+
+.Click {
+    width: 300px;
+    height: 370px;
+}
+
+.Click_h {
+    width: 300px;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.Click_ul li {
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px dashed #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.oBtn {
+    width: 25px;
+    height: 25px;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Click_ul a {
+    color: black;
+}
+
+.item_more {
+    width: 620px;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.item_more a {
+    color: black;
+}
+
+.imgs {
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    width: 960px;
+    height: 640px;
+}
+
+.img_text {
+    width: 960px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.img_images {
+    width: 960px;
+    height: 350px;
+    display: flex;
+}
+
+.img_l {
+    width: 480px;
+    height: 350px;
+}
+
+.img_l img {
+    width: 470px;
+    height: 350px;
+}
+
+.img_r {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img_r_t {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_r_t_1,
+.img_r_t_1 img {
+    width: 230px;
+    height: 170px;
+}
+
+.img_images_2 {
+    width: 960px;
+    height: 230px;
+}
+
+.img_images_2_1 {
+    width: 960px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+}
+
+.img_images_images {
+    width: 960px;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_item,
+.img_item img {
+    width: 234px;
+    height: 170px;
+}
+
+.e_mail {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.e_mail_center {
+    width: 960px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.e_mail_center_up {
+    width: 960px;
+    height: 370px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.hezuo {
+    width: 150px;
+    height: 350px;
+}
+
+.hezuo_1 {
+    width: 160px;
+    height: 200px;
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hezuo_1 img {
+    width: 130px;
+    height: 130px;
+}
+
+.lianjie {
+    width: 491px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lianjie p {
+    color: #ccc;
+}
+
+.guanzhu {
+    width: 220px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+}
+
+.sao {
+    width: 180px;
+    height: 150px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sao div {
+    display: flex;
+    justify-content: center;
+}
+
+.sao img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*尾部*/
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_1 {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}

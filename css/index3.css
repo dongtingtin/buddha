@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav {
+    width: 100%;
+    height: 110px;
+    background: #fbfbfb;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_c {
+    width: 960px;
+    height: 110px;
+    /*border: 1px solid #ccc;*/
+}
+
+.nav_t {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_t img {
+    height: 60px;
+}
+
+.nav_t input {
+    height: 30px;
+}
+
+.nav_b {
+    height: 40px;
+    /*border: 1px solid #ccc;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_b li {
+    width: 86px;
+    border-right: 1px solid #ccc;
+    height: 40px;
+    background-color: #927a6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_b li:hover {
+    background-color: #fff;
+}
+
+.nav_b li:hover a {
+    color: black;
+}
+
+.nav_b li a {
+    color: #fff;
+}
+
+.active {
+    background-color: #fff;
+}
+
+
+/*/轮播图*/
+
+.attr {
+    width: 99%;
+    height: 50px;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attr a {
+    color: #fff;
+}
+
+.attr:hover {
+    opacity: 0.7;
+}
+
+.container {
+    width: 100%;
+    height: 2100px;
+    display: flex;
+    justify-content: center;
+}
+
+.container_1 {
+    width: 960px;
+    height: 2100px;
+    display: flex;
+}
+
+.con_left {
+    width: 660px;
+    height: 2100px;
+}
+
+.item {
+    width: 620px;
+    height: 180px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.item_1 {
+    width: 620px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item_1 ul {
+    width: 420px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item_2 {
+    width: 580px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.item_2_img,
+.item_2_img img {
+    width: 580px;
+    height: 360px;
+}
+
+.item_3 {
+    width: 580px;
+    height: 1420px;
+    border-bottom: 1px solid #ccc;
+}
+
+.item_3 p {
+    text-indent: 50px;
+}
+
+.from {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.con_right {
+    width: 300px;
+    height: 1040px;
+}
+
+.hei {
+    height: 75px;
+}
+
+.con_xiangxi {
+    width: 300px;
+    height: 250px;
+    position: relative;
+}
+
+.con_xiangxi img {
+    width: 99%;
+    height: 98%;
+}
+
+.more {
+    width: 300px;
+    height: 300px;
+}
+
+.more_h {
+    width: 98%;
+    height: 60px;
+    background: #fbfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more_h a {
+    color: black;
+}
+
+.more_img {
+    width: 300px;
+    height: 180px;
+    position: relative;
+}
+
+.more_img img {
+    width: 300px;
+    height: 180px;
+}
+
+#List {
+    display: flex;
+}
+
+#List li {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#List a {
+    color: black;
+    font-size: 12px;
+}
+
+.Click {
+    width: 300px;
+    height: 370px;
+}
+
+.Click_h {
+    width: 300px;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.Click_ul li {
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px dashed #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.oBtn {
+    width: 25px;
+    height: 25px;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Click_ul a {
+    color: black;
+}
+
+
+/*尾部*/
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_1 {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
